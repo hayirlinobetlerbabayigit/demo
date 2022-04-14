@@ -1,5 +1,4 @@
 sed -i -e 's/Invoke-Mimikatz/Invoke-Mimidogz/g' Invoke-Mimikatz.ps1
-
 sed -i -e '/<#/,/#>/c\\' Invoke-Mimikatz.ps1
 
 sed -i -e 's/^[[:space:]]*#.*$//g' Invoke-Mimikatz.ps1
